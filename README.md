@@ -20,8 +20,9 @@
 ## 快速开始
 
 # 编译
+```bash
 g++ -std=c++11 -I. main.cpp algorithms/dynamic_programming.cpp algorithms/bfs_edit_distance.cpp algorithms/greedy_edit_distance.cpp utils/performance_timer.cpp utils/test_data.cpp -o main
-
+```
 # 运行
 ./main
 
